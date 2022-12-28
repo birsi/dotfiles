@@ -136,7 +136,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/birsi/.zshrc'y
+zstyle :compinstall filename '/home/birsi/.zshrc'
 
 #autoload -Uz compinit
 #compinit
@@ -146,10 +146,12 @@ zstyle :compinstall filename '/home/birsi/.zshrc'y
 eval "$(oh-my-posh init zsh --config ~/.poshthemes/peru.omp.json)"
 
 # fnm
-# fnm
 export PATH=/home/birsi/.fnm:$PATH
 eval "`fnm env`"
 
 # Java
 export JAVA_HOME=/home/birsi/.jdks/openjdk-19.0.1
 export PATH=${PATH}:${JAVA_HOME}/bin
+
+# vscode
+export EDITOR="code --wait"
