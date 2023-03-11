@@ -153,5 +153,8 @@ eval "`fnm env`"
 export JAVA_HOME=/home/birsi/.jdks/openjdk-19.0.1
 export PATH=${PATH}:${JAVA_HOME}/bin
 
+# gradle
+export PATH=${PATH}:/opt/gradle/gradle-8.0.2/bin
+
 # vscode
 export EDITOR="code --wait"
