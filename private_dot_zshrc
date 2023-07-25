@@ -158,3 +158,8 @@ export PATH=${PATH}:/opt/gradle/gradle-8.0.2/bin
 
 # vscode
 export EDITOR="code --wait"
+
+# meteor
+export PATH=/home/birsi/.meteor:$PATH
+
+export LESS="-eirMX"
