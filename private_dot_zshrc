@@ -147,7 +147,7 @@ eval "$(oh-my-posh init zsh --config ~/.poshthemes/peru.omp.json)"
 
 # fnm
 export PATH=/home/birsi/.fnm:$PATH
-eval "`fnm env`"
+eval "$(fnm env --use-on-cd)"
 
 # Java
 export JAVA_HOME=/home/birsi/.jdks/openjdk-19.0.1
